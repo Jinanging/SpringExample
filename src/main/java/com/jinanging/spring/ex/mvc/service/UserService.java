@@ -27,5 +27,12 @@ public class UserService {
 		int count = userRepository.insertUser(user);
 		return count;
 	}
+	
+	// 전달 받은 email이 중복된 것인지 판별
+	
+	// select where 로 조건 하고 count 만 하면된다....
+//	public boolean isDuplicateEamil(String email) {
+//		
+//	}
 
 }
